@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${CACI_REPO_URL:-https://github.com/OWNER/REPO.git}"
+REPO_URL="${CACI_REPO_URL:-https://github.com/AleXxi1337/caci.git}"
 INSTALL_ROOT="${CACI_INSTALL_ROOT:-$HOME/.local/share/caci}"
 REPO_DIR="${INSTALL_ROOT}/repo"
 VENV_DIR="${INSTALL_ROOT}/.venv"
