@@ -1,0 +1,10 @@
+[project]
+name = "caci"
+version = "0.1.0"
+description = "CLI Tool for arch installation with ease"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+caci = "caci.__main__:main"
